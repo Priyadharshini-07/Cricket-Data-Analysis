@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Yanone Kaffeesatz');
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Fjalla One');
+@import url('https://fonts.googleapis.com/css?family=Alfa Slab One');
+
+*{
+    margin:0;
+    padding:0px 0px;
+    font-family: 'Fjalla One',serif;
+}
+
+.container h1{
+    font-family:'Yanone Kaffeesatz',cursive;
+    font-weight: bold;
+    font-size: 48px;
+    color: whitesmoke;
+}
+
+.card-body strong{
+    font-family: 'Pacifico',cursive;
+    font-weight: bold;
+    font-size: 24px;
+   
+}
+
+body{
+    background:url("ground.jpg");
+}
+
+
+header{
+    width: 1384px;
+    height: 70px;
+    background-color: #282828;
+}
+
+header h1{
+    position: absolute;
+     padding:3px;
+     float: left;
+     margin-left: 2%;
+     margin-top: 10px;
+     font-family: 'Alfa Slab One',cursive;
+     color: #39ca74;
+}
+
+ header span{
+    color: #ffffff;
+    font-family: 'Alfa Slab One',cursive;
+}
+
+nav ul{
+    width: auto;
+    float: right;
+    margin-top: 8px;
+}
+
+nav li{
+ display: inline-block;
+ padding: 15px 30px;
+}
+
+nav a{
+    text-align:center;
+    color: white;
+    text-decoration:none;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 1.2vw;
+}
+
+nav a:hover{
+    color: #f0c330;
+    transition: 0.5s;
+}
